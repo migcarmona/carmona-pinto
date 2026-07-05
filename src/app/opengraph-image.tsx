@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import { ImageResponse } from "next/og";
 import { siteConfig } from "@/lib/site-config";
 
@@ -5,6 +7,8 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default async function Image() {
+  const logo = readFileSync(join(process.cwd(), "public", "logo-white.png")).toString("base64");
+
   return new ImageResponse(
     (
       <div
@@ -15,31 +19,22 @@ export default async function Image() {
           flexDirection: "column",
           justifyContent: "center",
           padding: "80px",
-          background: "linear-gradient(135deg, #020617 0%, #0f172a 60%, #1e293b 100%)",
+          background: "linear-gradient(135deg, #232927 0%, #2f3634 60%, #1a1f1d 100%)",
           color: "white",
           fontFamily: "sans-serif",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            width: 72,
-            height: 72,
-            borderRadius: 16,
-            background: "#20a2a4",
-            color: "#ffffff",
-            fontSize: 32,
-            fontWeight: 700,
-          }}
-        >
-          CP
-        </div>
+        <img
+          src={`data:image/png;base64,${logo}`}
+          width={340}
+          height={195}
+          alt=""
+          style={{ objectFit: "contain" }}
+        />
         <div style={{ marginTop: 40, fontSize: 56, fontWeight: 700, maxWidth: 900, lineHeight: 1.2, display: "flex" }}>
           {siteConfig.tagline}
         </div>
-        <div style={{ marginTop: 24, fontSize: 28, color: "#cbd5e1", display: "flex" }}>
+        <div style={{ marginTop: 24, fontSize: 28, color: "#5bc8ca", display: "flex" }}>
           {siteConfig.name} · Évora, Portugal
         </div>
       </div>

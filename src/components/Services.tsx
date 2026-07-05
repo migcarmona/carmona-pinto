@@ -44,10 +44,10 @@ export function Services() {
     <section id="servicos" className="bg-white py-24" aria-labelledby="services-heading">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-brand-dark">
             Os Nossos Serviços
           </p>
-          <h2 id="services-heading" className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+          <h2 id="services-heading" className="mt-3 text-3xl font-bold tracking-tight text-charcoal sm:text-4xl">
             Soluções completas em construção e imobiliário
           </h2>
           <p className="mt-4 text-lg text-slate-600">
@@ -62,12 +62,12 @@ export function Services() {
               key={service.title}
               className="rounded-xl border border-slate-200 bg-slate-50 p-8 transition-shadow hover:shadow-lg"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-brand-500/10 text-brand-600">
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-brand/10 text-brand-dark">
                 <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" strokeWidth={1.5} stroke="currentColor" className="h-7 w-7">
                   {service.icon}
                 </svg>
               </div>
-              <h3 className="mt-5 text-xl font-semibold text-slate-900">{service.title}</h3>
+              <h3 className="mt-5 text-xl font-semibold text-charcoal">{service.title}</h3>
               <p className="mt-3 text-slate-600">{service.description}</p>
             </article>
           ))}
