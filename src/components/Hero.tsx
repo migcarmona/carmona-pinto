@@ -16,10 +16,10 @@ export function Hero() {
     >
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(245,158,11,0.15),transparent_45%),radial-gradient(circle_at_80%_0%,rgba(148,163,184,0.15),transparent_40%)]"
+        className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(32,162,164,0.2),transparent_45%),radial-gradient(circle_at_80%_0%,rgba(148,163,184,0.15),transparent_40%)]"
       />
       <div className="relative mx-auto max-w-6xl px-6 py-24 sm:py-32">
-        <p className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+        <p className="text-sm font-semibold uppercase tracking-widest text-brand-400">
           Construção &amp; Imobiliário em Évora
         </p>
         <h1
@@ -42,7 +42,7 @@ export function Hero() {
                 aria-hidden="true"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                className="mt-0.5 h-5 w-5 flex-shrink-0 text-amber-400"
+                className="mt-0.5 h-5 w-5 flex-shrink-0 text-brand-400"
               >
                 <path
                   fillRule="evenodd"
