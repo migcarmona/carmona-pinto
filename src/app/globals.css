@@ -10,6 +10,19 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand palette derived from the Carmona & Pinto logo (teal house mark) */
+  --color-brand-50: #eefbfc;
+  --color-brand-100: #ddf8f8;
+  --color-brand-200: #b6f0f1;
+  --color-brand-300: #7fe4e6;
+  --color-brand-400: #3fd7da;
+  --color-brand-500: #20a2a4;
+  --color-brand-600: #197c7e;
+  --color-brand-700: #135f60;
+  --color-brand-800: #0e4546;
+  --color-brand-900: #0a3031;
+  --color-brand-950: #051b1b;
 }
 
 @media (prefers-color-scheme: dark) {

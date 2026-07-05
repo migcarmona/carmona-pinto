@@ -9,7 +9,7 @@ export function About() {
     <section id="sobre" className="bg-slate-50 py-24" aria-labelledby="about-heading">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 lg:grid-cols-2 lg:items-center">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-amber-600">
+          <p className="text-sm font-semibold uppercase tracking-widest text-brand-600">
             Sobre Nós
           </p>
           <h2 id="about-heading" className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
@@ -42,7 +42,7 @@ export function About() {
           role="img"
           aria-label="Obra de construção em Light Steel Frame da Carmona & Pinto em Évora"
         >
-          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" strokeWidth={1} stroke="currentColor" className="h-28 w-28 text-amber-500/40">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" strokeWidth={1} stroke="currentColor" className="h-28 w-28 text-brand-500/40">
             <path
               strokeLinecap="round"
               strokeLinejoin="round"

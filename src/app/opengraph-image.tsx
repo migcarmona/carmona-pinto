@@ -28,8 +28,8 @@ export default async function Image() {
             width: 72,
             height: 72,
             borderRadius: 16,
-            background: "#f59e0b",
-            color: "#020617",
+            background: "#20a2a4",
+            color: "#ffffff",
             fontSize: 32,
             fontWeight: 700,
           }}
