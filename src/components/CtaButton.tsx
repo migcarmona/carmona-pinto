@@ -10,8 +10,8 @@ export function CtaButton({ className = "", variant = "solid" }: CtaButtonProps)
     "inline-flex items-center justify-center gap-2 rounded-md px-6 py-3 text-sm font-semibold uppercase tracking-wide transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";
   const styles =
     variant === "solid"
-      ? "bg-brand-500 text-slate-950 hover:bg-brand-400 focus-visible:outline-brand-500"
-      : "border border-brand-400 text-brand-400 hover:bg-brand-400 hover:text-slate-950 focus-visible:outline-brand-400";
+      ? "bg-brand-dark text-white hover:bg-brand focus-visible:outline-brand-dark"
+      : "border border-brand text-brand-dark hover:bg-brand-dark hover:text-white focus-visible:outline-brand-dark";
 
   return (
     <a

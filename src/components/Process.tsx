@@ -21,10 +21,10 @@ const steps = [
 
 export function Process() {
   return (
-    <section id="processo" className="bg-slate-950 py-24 text-white" aria-labelledby="process-heading">
+    <section id="processo" className="bg-charcoal-dark py-24 text-white" aria-labelledby="process-heading">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-widest text-brand-400">
+          <p className="text-sm font-semibold uppercase tracking-widest text-brand">
             Como Funciona
           </p>
           <h2 id="process-heading" className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -34,8 +34,8 @@ export function Process() {
 
         <ol className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => (
-            <li key={step.title} className="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
-              <span className="text-4xl font-bold text-brand-400/60">
+            <li key={step.title} className="rounded-xl border border-white/10 bg-white/5 p-6">
+              <span className="text-4xl font-bold text-brand/60">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <h3 className="mt-4 text-lg font-semibold">{step.title}</h3>

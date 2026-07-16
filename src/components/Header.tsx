@@ -12,18 +12,24 @@ const navLinks = [
 
 export function Header() {
   return (
-    <header className="relative z-50 border-b border-slate-800 bg-slate-950/95 backdrop-blur">
+    <header className="relative z-50 border-b border-white/10 bg-charcoal-dark/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#topo" className="flex items-center gap-2 text-lg font-bold tracking-tight text-white">
-          <Image src="/logo-icon-white.png" alt="" width={36} height={36} className="h-9 w-9" priority />
-          {siteConfig.name}
+        <a href="#topo" aria-label={siteConfig.name}>
+          <Image
+            src="/logo-white.png"
+            alt={`${siteConfig.name} - Imobiliário e Construção`}
+            width={1193}
+            height={685}
+            priority
+            className="h-10 w-auto"
+          />
         </a>
 
         <nav aria-label="Menu principal" className="hidden md:block">
           <ul className="flex items-center gap-8 text-sm font-medium text-slate-200">
             {navLinks.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="transition-colors hover:text-brand-400">
+                <a href={link.href} className="transition-colors hover:text-brand">
                   {link.label}
                 </a>
               </li>
