@@ -6,7 +6,7 @@ export const siteConfig = {
     "Empresa de construção em Évora especializada em Light Steel Frame (LSF), remodelações e reabilitação de imóveis em alvenaria, e compra e venda de imóveis. Peça já o seu orçamento gratuito.",
   url: "https://carmona-pinto.pt",
   ctaUrl: "https://orcamentos.carmona-pinto.pt",
-  ctaLabel: "Fazer Orçamento",
+  ctaLabel: "Orçamento",
   locale: "pt_PT",
   areaServed: "Évora",
   contacts: {
