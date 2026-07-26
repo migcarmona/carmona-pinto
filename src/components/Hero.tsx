@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { CtaButton } from "@/components/CtaButton";
 
 const highlights = [
@@ -14,6 +15,18 @@ export function Hero() {
       className="relative overflow-hidden bg-charcoal-dark text-white"
       aria-labelledby="hero-heading"
     >
+      <Image
+        src="/lsf-evora.webp"
+        alt="Obra de construção em Light Steel Frame (LSF) da Carmona & Pinto em Évora"
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover"
+      />
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 bg-gradient-to-r from-charcoal-dark via-charcoal-dark/90 to-charcoal-dark/50"
+      />
       <div
         aria-hidden="true"
         className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(32,162,164,0.22),transparent_45%),radial-gradient(circle_at_80%_0%,rgba(71,82,79,0.35),transparent_40%)]"
