@@ -17,7 +17,7 @@ const reasons = [
   {
     title: "Acompanhamento completo",
     description:
-      "Do primeiro contacto à entrega da obra, ou da angariação à escritura, acompanhamos todo o processo lado a lado consigo.",
+      "Como empresa de obras em Évora, acompanhamos todo o processo lado a lado consigo, do primeiro contacto à entrega da obra, ou da angariação à escritura.",
   },
 ];
 

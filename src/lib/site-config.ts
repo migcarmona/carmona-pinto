@@ -3,10 +3,10 @@ export const siteConfig = {
   legalName: "Carmona & Pinto, Lda.",
   tagline: "Construção em LSF, Remodelações e Imóveis em Évora",
   description:
-    "Empresa de construção em Évora especializada em Light Steel Frame (LSF), remodelações e reabilitação de imóveis em alvenaria, e compra e venda de imóveis. Peça já o seu orçamento gratuito.",
+    "Empresa de construção civil em Évora especializada em Light Steel Frame (LSF), remodelações, reabilitação de edifícios em alvenaria e obras em geral, e compra e venda de imóveis. Peça já o seu orçamento gratuito.",
   url: "https://carmona-pinto.pt",
   ctaUrl: "https://orcamentos.carmona-pinto.pt",
-  ctaLabel: "Orçamento",
+  ctaLabel: "Simular Orçamento",
   locale: "pt_PT",
   areaServed: "Évora",
   contacts: {
