@@ -30,8 +30,9 @@ export default function Home() {
     },
     priceRange: "€€",
     makesOffer: [
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Construção em LSF (Light Steel Frame)" } },
-      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Remodelações e reabilitação em alvenaria" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Construção civil e LSF (Light Steel Frame)" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Remodelações e reabilitação de edifícios" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Obras gerais em Évora" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Compra e venda de imóveis" } },
     ],
   };
