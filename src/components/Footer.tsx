@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
 
 export function Footer() {
@@ -24,10 +25,10 @@ export function Footer() {
         <div>
           <p className="text-sm font-semibold uppercase tracking-wide text-slate-200">Navegação</p>
           <ul className="mt-3 space-y-2 text-sm">
-            <li><a href="#servicos" className="hover:text-brand">Serviços</a></li>
-            <li><a href="#sobre" className="hover:text-brand">Sobre Nós</a></li>
-            <li><a href="#processo" className="hover:text-brand">Como Funciona</a></li>
-            <li><a href="#contactos" className="hover:text-brand">Contactos</a></li>
+            <li><Link href="/#servicos" className="hover:text-brand">Serviços</Link></li>
+            <li><Link href="/#sobre" className="hover:text-brand">Sobre Nós</Link></li>
+            <li><Link href="/#processo" className="hover:text-brand">Como Funciona</Link></li>
+            <li><Link href="/#contactos" className="hover:text-brand">Contactos</Link></li>
           </ul>
         </div>
 

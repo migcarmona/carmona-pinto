@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { CtaButton } from "@/components/CtaButton";
 
 const navLinks = [
-  { href: "#servicos", label: "Serviços" },
-  { href: "#sobre", label: "Sobre Nós" },
-  { href: "#processo", label: "Como Funciona" },
-  { href: "#contactos", label: "Contactos" },
+  { href: "/#servicos", label: "Serviços" },
+  { href: "/#sobre", label: "Sobre Nós" },
+  { href: "/#processo", label: "Como Funciona" },
+  { href: "/#contactos", label: "Contactos" },
 ];
 
 export function MobileNav() {
@@ -41,9 +42,9 @@ export function MobileNav() {
             <ul className="flex flex-col gap-4 text-base font-medium text-slate-200">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} onClick={() => setOpen(false)} className="block py-1 hover:text-brand">
+                  <Link href={link.href} onClick={() => setOpen(false)} className="block py-1 hover:text-brand">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

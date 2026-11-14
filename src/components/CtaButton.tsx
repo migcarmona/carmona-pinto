@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { siteConfig } from "@/lib/site-config";
 
 type CtaButtonProps = {
@@ -14,10 +15,10 @@ export function CtaButton({ className = "", variant = "solid" }: CtaButtonProps)
       : "border border-brand text-brand-dark hover:bg-brand-dark hover:text-white focus-visible:outline-brand-dark";
 
   return (
-    <a
+    <Link
       href={siteConfig.ctaUrl}
       className={`${base} ${styles} ${className}`}
-      aria-label={`${siteConfig.ctaLabel} - abre o portal de orçamentos`}
+      aria-label={`${siteConfig.ctaLabel} - vai para o formulário de orçamento`}
     >
       {siteConfig.ctaLabel}
       <svg
@@ -32,6 +33,6 @@ export function CtaButton({ className = "", variant = "solid" }: CtaButtonProps)
           clipRule="evenodd"
         />
       </svg>
-    </a>
+    </Link>
   );
 }
