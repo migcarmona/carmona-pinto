@@ -18,9 +18,9 @@ export function About() {
             Uma equipa de Évora, para a região de Évora
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-slate-600">
-            A Carmona &amp; Pinto é uma empresa de construção sediada em Évora, especializada em
-            construção através do sistema Light Steel Frame (LSF), remodelações e reabilitação de
-            edifícios em alvenaria tradicional, e ainda na compra e venda de imóveis na região.
+            A Carmona &amp; Pinto é uma empresa de construção civil sediada em Évora, especializada
+            em construção através do sistema Light Steel Frame (LSF), remodelações e reabilitação
+            de edifícios em alvenaria tradicional, e ainda na compra e venda de imóveis na região.
           </p>
           <p className="mt-4 text-lg leading-relaxed text-slate-600">
             Trabalhamos de perto com cada cliente, do primeiro contacto ao orçamento e até à

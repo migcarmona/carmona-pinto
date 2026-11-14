@@ -2,9 +2,9 @@ import { CtaButton } from "@/components/CtaButton";
 
 const services = [
   {
-    title: "Construção em LSF",
+    title: "Construção Civil e LSF",
     description:
-      "Construção de moradias e edifícios em Light Steel Frame: um sistema construtivo mais rápido, sustentável e eficiente, com excelente desempenho térmico e acústico, ideal para o clima de Évora.",
+      "Como empresa de construção civil em Évora, construímos moradias e edifícios em Light Steel Frame: um sistema construtivo mais rápido, sustentável e eficiente, com excelente desempenho térmico e acústico, ideal para o clima da região.",
     icon: (
       <path
         strokeLinecap="round"
@@ -14,9 +14,9 @@ const services = [
     ),
   },
   {
-    title: "Remodelações e Reabilitação",
+    title: "Remodelações e Reabilitação de Edifícios",
     description:
-      "Remodelação e reabilitação de casas e edifícios em alvenaria tradicional, respeitando a traça original quando aplicável e modernizando espaços com materiais de qualidade.",
+      "Enquanto empresa de remodelações em Évora, remodelamos e reabilitamos edifícios e casas em alvenaria tradicional, respeitando a traça original quando aplicável e modernizando espaços com materiais de qualidade.",
     icon: (
       <path
         strokeLinecap="round"
@@ -51,8 +51,9 @@ export function Services() {
             Soluções completas em construção e imobiliário
           </h2>
           <p className="mt-4 text-lg text-slate-600">
-            Da construção de raiz à reabilitação de imóveis existentes, e ainda apoio na compra e
-            venda: a Carmona &amp; Pinto acompanha todo o processo em Évora e região.
+            Da construção de raiz à reabilitação de edifícios existentes, e ainda apoio na compra e
+            venda: somos uma das empresas de construção em Évora que acompanha toda a obra,
+            do primeiro esboço à entrega final.
           </p>
         </div>
 

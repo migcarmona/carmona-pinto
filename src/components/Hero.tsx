@@ -3,7 +3,7 @@ import { CtaButton } from "@/components/CtaButton";
 
 const highlights = [
   "Construção em LSF (Light Steel Frame)",
-  "Remodelações e reabilitação em alvenaria",
+  "Remodelações e reabilitação de edifícios",
   "Compra e venda de imóveis",
   "Orçamento gratuito e sem compromisso",
 ];
